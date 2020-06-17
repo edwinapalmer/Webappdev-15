@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore local database stuff:
+
+migrations/
+
+*.db
+
+# ignore secret credentials
+
+*.env

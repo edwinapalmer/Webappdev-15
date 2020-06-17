@@ -3,8 +3,9 @@ from flask import Flask
 from web_apps.models import db, migrate
 from web_apps.routes.home_routes import home_routes
 from web_apps.routes.tweet_routes import tweet_routes
+from web_apps.services.basilica_service import connnection
 
-DATABASE_URI = "sqlite:///web_apps_11.db" # using relative filepath
+DATABASE_URI = "sqlite:///web_apps_99.db" # using relative filepath
 #DATABASE_URI = "sqlite:////Users/Username/Desktop/your-repo-name/web_app_99.db" # using absolute filepath on Mac (recommended)
 #DATABASE_URI = "sqlite:///C:\\Users\\Username\\Desktop\\your-repo-name\\web_app_99.db" # using absolute filepath on Windows (recommended) h/t: https://stackoverflow.com/a/19262231/670433
 
